@@ -37,6 +37,8 @@ def time_calulator(time):
         new_seconds = int(math.modf(new_minutes)[0] * 60)
         print("Your new runtime is " + str(math.modf(new_hours)[1]) + " hours, "
         + str(math.modf(new_minutes)[1]) + " minutes, and " + str(new_seconds) + " seconds.")
+    
+    # the time subtraction needs to be reconfigured
     else:
         subtracted_time = total_minutes - find_change_of_time
         print(subtracted_time)
